@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+**Describe the issue**
 A clear and concise description of what the issue is.
 
 **To Reproduce**
@@ -22,6 +22,9 @@ A clear and concise description of what you expected to happen.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
+
+**HTTP requests/responses**
+If applicable, add HTTP requests and/or responses to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here, e.g. the browser you are using (if applicable).
