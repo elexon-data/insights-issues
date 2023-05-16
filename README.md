@@ -13,7 +13,7 @@ Issues may pertain to any part of Insights Solution endpoints:
 
 ### Feature requests and improvement suggestions
 
-Issues should be raised wherever any functionality relating to the services don't work as expected; this could also include non functional aspects e.g. performance. For any feature requests or improvement suggestions, please use the feedback form on the [Insights website](https://bmrs.elexon.co.uk/).
+Issues should be raised wherever any functionality relating to the services doesn't work as expected; this could also include non-functional aspects e.g. performance. For any feature requests or improvement suggestions, please use the feedback form on the [Insights website](https://bmrs.elexon.co.uk/).
 
 ### IRIS Clients
 
