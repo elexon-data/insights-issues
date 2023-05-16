@@ -6,7 +6,7 @@ This repository serves as a centralised location for tracking and managing issue
 
 ## What is an issue?
 
-Issues may pertain to any part of Insights:
+Issues may pertain to any part of Insights Solution endpoints:
  - the [Insights website](https://bmrs.elexon.co.uk/)
  - [Insights Real-Time Information Service (IRIS)](https://bmrs.elexon.co.uk/iris)
  - the [Insights API](https://bmrs.elexon.co.uk/api-documentation)
