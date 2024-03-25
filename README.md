@@ -13,6 +13,10 @@ These include any part of Insights Solution:
 
 Breaking changes to the Insights Solution and planned outages will be announced here.
 
+## 2024-03-26 Planned outage
+
+Planned infrastructure outage between 4:30 (GMT) to 17:30 (GMT) on Tuesday 26 March 2024 impacting upstream data sent to Insights. During the outage window Insights Platform will not be publishing data via IRIS, website and APIs.
+
 ## 2024-03-27 Breaking change to DISBSAD
 
 We are releasing a breaking change to fix a discrepancy in the DISBSAD data schema between IRIS and the Insights API. IRIS previous returned `IsTendered` as a string with possible values `"Tendered"` or `"Non-tendered"`; after this release it will return a nullable boolean value, where `true` corresponds to `"Tendered"`.
