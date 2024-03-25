@@ -1,21 +1,25 @@
 ![Insights Solution logo](./images/insights-solution.png)
 
-# Insights Solution Issues and Live Incidents 
+# Insights Solution Issues, Announcements and Live Incidents 
 
-This repository serves as a centralised location for tracking and managing issues reported on the [Insights Solution](https://bmrs.elexon.co.uk/).
+This repository serves as a centralised location for tracking issues and announcements pertaining to the [Insights Solution](https://bmrs.elexon.co.uk/).
 
-## What is an issue?
-
-Issues may pertain to any part of Insights Solution endpoints:
+These include any part of Insights Solution:
  - the [Insights website](https://bmrs.elexon.co.uk/)
  - [Insights Real-Time Information Service (IRIS)](https://bmrs.elexon.co.uk/iris)
  - the [Insights API](https://bmrs.elexon.co.uk/api-documentation)
 
-### Feature requests and improvement suggestions
+# Announcements and Incidents
+
+Breaking changes to the Insights Solution and planned outages will be announced here.
+
+## 2024-03-25 Breaking change to DISBSAD
+
+We are releasing a breaking change to fix a discrepancy in the DISBSAD data schema between IRIS and the Insights API. IRIS previous returned `IsTendered` as a string with possible values `"Tendered"` or `"Non-tendered"`; after this release it will return a nullable boolean value, where `true` corresponds to `"Tendered"`.
+
+# Issues
 
 Issues should be raised wherever any functionality relating to the services doesn't work as expected; this could also include non-functional aspects e.g. performance. For any feature requests or improvement suggestions, please use the feedback form on the [Insights website](https://bmrs.elexon.co.uk/).
-
-### IRIS Clients
 
 For any issues with [iris-clients](https://github.com/elexon-data/iris-clients), please raise an issue in that repository.
 
