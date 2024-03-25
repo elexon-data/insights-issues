@@ -11,7 +11,7 @@ These include any part of Insights Solution:
 
 # Announcements and Incidents
 
-Breaking changes to IRIS and planned outages will be announced here.
+Breaking changes to the Insights Solution and planned outages will be announced here.
 
 ## 2024-03-25 Breaking change to DISBSAD
 
