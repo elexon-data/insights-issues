@@ -13,7 +13,7 @@ These include any part of Insights Solution:
 
 Breaking changes to the Insights Solution and planned outages will be announced here.
 
-## 2024-03-25 Breaking change to DISBSAD
+## 2024-03-27 Breaking change to DISBSAD
 
 We are releasing a breaking change to fix a discrepancy in the DISBSAD data schema between IRIS and the Insights API. IRIS previous returned `IsTendered` as a string with possible values `"Tendered"` or `"Non-tendered"`; after this release it will return a nullable boolean value, where `true` corresponds to `"Tendered"`.
 
