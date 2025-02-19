@@ -13,6 +13,14 @@ These include any part of Insights Solution:
 
 Breaking changes to the Insights Solution and planned outages will be announced here.
 
+## 2025-02-17 TLS 1.0 no longer supported by IRIS from 28 February 2025
+
+As of 28 February 2025, TLS 1.0 and TLS 1.1 will no longer be supported by IRIS. The minimum TLS version will be 1.2.
+
+IRIS users must check their client compatibility with TLS version 1.2 before this date.
+
+For help configuring TLS for a client application, see [Azure documentation](https://learn.microsoft.com/en-us/azure/service-bus-messaging/transport-layer-security-configure-client-version).
+
 ## 2024-10-01 Deprecation of Generation Forecast summary endpoints
 
 The following four endpoints are now all deprecated and will be removed in early 2025.
