@@ -13,6 +13,22 @@ These include any part of Insights Solution:
 
 Breaking changes to the Insights Solution and planned outages will be announced here.
 
+## 2025-04-01 Deprecation of legacy endpoints
+
+The following endpoints have been deprecated for some time. They have been redirecting to the associated new endpoints
+listed below since November 2023. They will be removed in June 2025. Users should migrate to using the new endpoints
+directly.
+
+- `/demand` (currently redirects to `/demand/outturn`)
+- `/demand/stream` (currently redirects to `/demand/outturn/stream`)
+- `/demand/summary` (currently redirects to `/demand/outturn/summary`)
+- `/demand/rollingSystemDemand` (currently redirects to `/generation/outturn`)
+- `/demand/total/actual` (currently redirects to `/demand/actual/total`)
+- `/cdn` (currently redirects to `/balancing/settlement/default-notices`)
+- `/lolpdrm/forecast/evolution` (currently redirects to `/forecast/system/loss-of-load`)
+- `/generation/outturn/halfHourlyInterconnector` (currently redirects to `/generation/outturn/interconnectors`)
+- `/generation/outturn/FUELINSTRHHCUR` (currently redirects to `/generation/outturn/current`)
+
 ## 2025-02-17 TLS 1.0 no longer supported by IRIS from 28 February 2025
 
 As of 28 February 2025, TLS 1.0 and TLS 1.1 will no longer be supported by IRIS. The minimum TLS version will be 1.2.
