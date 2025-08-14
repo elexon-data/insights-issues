@@ -13,6 +13,20 @@ These include any part of Insights Solution:
 
 Breaking changes to the Insights Solution and planned outages will be announced here.
 
+## 2025-08-27 IRIS Enhancements
+
+Enhancements have been made to [IRIS](https://bmrs.elexon.co.uk/iris) that require all users to [re-register on the Insights Solution](https://bmrs.elexon.co.uk/iris).
+**Existing queues will continue to work until 2 October 2025 after which they will be deleted.**
+
+[IRIS](https://bmrs.elexon.co.uk/iris) is a near real-time, free, publicly available push service for accessing Insights Solution data.
+
+Upon re-registering you will get access to the following new features:
+1. Multiple Queues per User: Easily provision additional IRIS queues to your existing subscriptions.
+2. Server-Side Message Filters: Take control what datasets you wish to receive with self-serve filtering based on pre-defined options.
+3. Sender Permissions: You can send messages to your own queue so you can retry dead-lettered messages. 
+4. Refreshed UI: A redesigned front end with enhanced functionality e.g. managing queues, applying filters by logging in.
+
+
 ## 2025-04-01 Deprecation of legacy endpoints
 
 The following endpoints have been deprecated for some time. They have been redirecting to the associated new endpoints
